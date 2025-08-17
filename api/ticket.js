@@ -9,6 +9,9 @@ export default function handler(req, res) {
     imageUrl = img;
   } else if (key) {
     imageUrl = S3_BASE + key;
+    if (!/\.(png|jpg|jpeg|gif)$/i.test(imageUrl)) {
+    imageUrl += '.png';  // 안전하게 png 붙여주기
+  }
   } else {
     imageUrl = 'https://via.placeholder.com/1200x630?text=musai+ticket';
   }
