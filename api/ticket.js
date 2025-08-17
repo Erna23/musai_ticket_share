@@ -26,10 +26,30 @@ export default function handler(req, res) {
   <meta property="og:image" content="${imageUrl}" />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://${req.headers.host}${req.url}" />
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;   /* 가로 중앙 */
+      justify-content: flex-start; /* 위에서부터 배치 */
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3rem;      /* 글자 크기 */
+      margin: 16px 0 16px;  /* 위/아래 여백 */
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
 <body>
   <h1>${title}</h1>
-  <img src="${imageUrl}" alt="ticket preview" style="max-width:100%;"/>
+  <img src="${imageUrl}" alt="ticket preview"/>
 </body>
 </html>`;
 
