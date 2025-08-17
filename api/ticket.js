@@ -53,6 +53,8 @@ export default function handler(req, res) {
 </body>
 </html>`;
 
+  res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate');
+  res.setHeader('Pragma', 'no-cache');
   res.setHeader('Content-Type', 'text/html; charset=utf-8');
   res.status(200).send(html);
 }
