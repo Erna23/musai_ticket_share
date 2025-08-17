@@ -24,7 +24,7 @@ Musai ticket URL share for KakaoTalk (subdomain) : Musai 티켓 이미지 URL �
 ### 🔹 캐시 무효화
 - `Cache-Control: no-store` 설정으로 카카오 크롤러가 항상 최신 이미지 요청
 
-<img width="262" height="441" alt="image" src="https://github.com/user-attachments/assets/963cc6fb-0889-49ba-ac12-72cde85ad3bc" />
-<img width="450" height="630" alt="image" src="https://github.com/user-attachments/assets/c8fb9005-9c52-4c71-89ce-f789ff46bf28" />
+<img width="1080" height="1484" alt="image" src="https://github.com/user-attachments/assets/ac467b21-d833-418d-8793-2d01b3abd14f" />
+
 
 
