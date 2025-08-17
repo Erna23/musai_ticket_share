@@ -1,5 +1,5 @@
 # musai_ticket_share
-Musai ticket URL share for KakaoTalk (subdomain) : Musai 티켓 공유용 동적 페이지 서비스
+Musai ticket URL share for KakaoTalk (subdomain) : Musai 티켓 이미지 URL 공유용 동적 페이지 서비스
 
 카카오톡 등 메신저에서 티켓 URL을 공유할 때, 미리보기 이미지와 제목/설명을 표시하고  
 “이미지 보기” 클릭 시 티켓 전용 미리보기 페이지를 노출합니다.
@@ -7,7 +7,7 @@ Musai ticket URL share for KakaoTalk (subdomain) : Musai 티켓 공유용 동적
 본 프로젝트는 Vercel에 배포되며, API Route를 활용해 동적 HTML을 생성합니다.  
 
 예시 URL:  
-[https://musai-ticket.vercel.app/s/sample.png](https://musai-ticket.vercel.app/s/sample.png)
+[https://musai-ticket.vercel.app/](https://musai-ticket.vercel.app/)
 
 
 
