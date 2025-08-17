@@ -7,7 +7,7 @@ Musai ticket URL share for KakaoTalk (subdomain) : Musai 티켓 이미지 URL �
 본 프로젝트는 Vercel에 배포되며, API Route를 활용해 동적 HTML을 생성합니다.  
 
 예시 URL:  
-[https://musai-ticket.vercel.app/](https://musai-ticket.vercel.app/)
+[https://musai-ticket.vercel.app/s/sample.png](https://musai-ticket.vercel.app/s/sample.png)
 
 
 
